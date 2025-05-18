@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url('https://www.transparenttextures.com/patterns/flowers.png'), #fdf6f8;
+  background-repeat: repeat;
+  color: #5c4b51;
+}
+
+.invitation {
+   /* max-width: 3px; */
+  /* height: auto; */
+  /* border-radius:20px; опційно — закруглені краї */
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);  */
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #c95d7b;
+  margin-bottom: 0.5rem;
+}
+
+.names {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #913b5c;
+  margin: 0.5rem 0;
+}
+
+.names span {
+  color: #d6829a;
+  font-weight: normal;
+}
+
+.date {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #a26a7d;
+  margin-bottom: 1.5rem;
+}
+
+.intro {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.quote {
+  font-style: italic;
+  font-weight: bold;
+  color: #b73c5f;
+}
+
+.section {
+  text-align: center;
+  margin: 2rem 0 1.5rem;
+}
+
+.schedule {
+  background: #fff0f4;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.schedule h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #b15070;
+}
+
+.event {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-bottom: 1px dashed #d9a8b5;
+}
+
+.time {
+  font-weight: bold;
+  color: #913b5c;
+}
+
+.desc {
+  text-align: right;
+}
+
+.desc small {
+  display: block;
+  font-size: 0.85rem;
+  color: #a87b8d;
+}
+
+.closing {
+  text-align: center;
+  margin-top: 2rem;
+  font-style: italic;
+}
+
+.love {
+  text-align: center;
+  font-weight: bold;
+  color: #b73c5f;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+.countdown {
+  font-size: 1.5rem;
+  color: #b73c5f;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.nav {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #913b5c;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+}
+
+.nav a:hover {
+  border-color: #d6829a;
+}
+
+
+/* 🌸 Mobile-friendly tweaks */
+@media (max-width: 600px) {
+  .event {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .desc {
+    text-align: center;
+  }
+
+  .names {
+    font-size: 1.5rem;
+  }
+
+  .date {
+    font-size: 1rem;
+  }
+}
